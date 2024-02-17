@@ -48,7 +48,7 @@ public class Boj17413 {
 				sb.append(tmp);	// <ab cd 2) sb <ab cd> fe hg<ij kl
 				// <>의 밖일 때
 			} else if(!isIn) {
-				// 공백이면 단어 분리
+				// 공백이면 단어 분리 ab de ba ed
 				if(tmp.equals(" ")) {
 					while(!stack.empty()) {
 						sb.append(stack.pop());	// sb <ab cd> fe stack 비워짐

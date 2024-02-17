@@ -12,6 +12,7 @@ public class Boj2609 {
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
 
+		// 비교를 쉽게 하기 위해 자리 바꿔줌
 		if(num1 < num2) {
 			int tmp = 0;
 			tmp = num1;
